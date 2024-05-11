@@ -1,0 +1,156 @@
+{
+	"remote": "21-key",
+	"0xFFA25D": {
+		"label": "On/Off",
+		"pos": "1x1",
+		"cmd": "T=2"
+	},
+	"0xFF629D": {
+		"label": "Effect Intensity+",
+		"pos": "1x2",
+		"cmd": "IX=~10"
+	},
+	"0xFFE21D": {
+		"label": "Stop",
+		"pos": "1x3",
+		"cmd": {
+			"seg": {
+				"frz": true
+			}
+		}
+	},
+	"0xFF22DD": {
+		"label": "Speed-",
+		"pos": "2x1",
+		"cmd": "SX=~-16"
+	},
+	"0xFF02FD": {
+		"label": "Play/Pause",
+		"pos": "2x2",
+		"cmd": {
+			"seg": {
+				"frz": "t"
+			}
+		}
+	},
+	"0xFFC23D": {
+		"label": "Speed+",
+		"pos": "2x3",
+		"cmd": "SX=~16"
+	},
+	"0xFFE01F": {
+		"label": "Bright-",
+		"pos": "3x1",
+		"cmd": "!decBrightness"
+	},
+	"0xFFA857": {
+		"label": "Effect Intensity-",
+		"pos": "3x2",
+		"cmd": "IX=~-10"
+	},
+	"0xFF906F": {
+		"label": "Bright+",
+		"pos": "3x3",
+		"cmd": "!incBrightness"
+	},
+	"0xFF6897": {
+		"label": "Aurora",
+		"pos": "4x1",
+		"cmd": "FX=38"
+	},
+	"0xFF9867": {
+		"label": "Green",
+		"pos": "4x2",
+		"cmd": "FP=10&CL=h8000&C2=h8040&C3=h30661E"
+	},
+	"0xFFB04F": {
+		"label": "Blue",
+		"pos": "4x3",
+		"cmd": "FP=7&CL=hFF&C2=h7F00FF&C3=h3D60CC"
+	},
+	"0xFF30CF": {
+		"label": "Colorwaves",
+		"pos": "5x1",
+		"cmd": "FX=67"
+	},
+	"0xFF18E7": {
+		"label": "Fire",
+		"pos": "5x2",
+		"cmd": {
+			"seg": {
+				"bri": 255,
+				"c1": 128,
+				"c2": 128,
+				"c3": 16,
+				"cct": 127,
+				"col": [
+					[255, 160, 0],
+					[0, 0, 0],
+					[0, 0, 0]
+				],
+				"frz": false,
+				"fx": 66,
+				"grp": 1,
+				"id": 0,
+				"ix": 105,
+				"len": 18,
+				"m12": 1,
+				"mi": false,
+				"mY": false,
+				"o1": false,
+				"o2": false,
+				"o3": false,
+				"of": 0,
+				"on": true,
+				"pal": 35,
+				"rev": false,
+				"rY": false,
+				"sel": true,
+				"set": 0,
+				"si": 0,
+				"spc": 0,
+				"start": 0,
+				"startY": 0,
+				"stop": 18,
+				"stopY": 14,
+				"sx": 90,
+				"tp": false
+			}
+		}
+	},
+	"0xFF7A85": {
+		"label": "Rain",
+		"pos": "5x3",
+		"cmd": "FX=96"
+	},
+	"0xFF10EF": {
+		"label": "Polar Lights",
+		"pos": "6x1",
+		"cmd": "FX=174"
+	},
+	"0xFF38C7": {
+		"label": "GEQ",
+		"pos": "6x2",
+		"cmd": "FX=139"
+	},
+	"0xFF5AA5": {
+		"label": "Tartan",
+		"pos": "6x3",
+		"cmd": "FX=173"
+	},
+	"0xFF42BD": {
+		"label": "Tetrix",
+		"pos": "7x1",
+		"cmd": "FX=44"
+	},
+	"0xFF4AB5": {
+		"label": "Swirl",
+		"pos": "7x2",
+		"cmd": "FX=175"
+	},
+	"0xFF52AD": {
+		"label": "Twinkleup",
+		"pos": "7x3",
+		"cmd": "FX=106"
+	}
+}
